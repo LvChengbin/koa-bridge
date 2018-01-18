@@ -1,0 +1,6 @@
+{
+    "verbose" : true,
+    "watch" : [ "index.js", "test/", "lib/" ],
+    "ignore" : [],
+    "ext" : "js json"
+}

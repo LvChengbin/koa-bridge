@@ -1,0 +1,39 @@
+{
+	"name": "@lvchengbin/koa-bridge",
+	"description": "A simple repeater for Koa for forwarding requests, from client, to another service (or api) with the same request method and headers, queries, body from the client, then response the data, from another server, to client. ",
+	"repository": "git@github.com:LvChengbin/koa-bridge.git",
+	"version": "0.0.2",
+	"keywords": [
+		"koa",
+		"middleware",
+		"forward",
+		"repeater"
+	],
+	"files": [
+		"index.js"
+	],
+	"devDependencies": {
+		"@lvchengbin/koa-router": "0.0.2",
+		"get-stream": "^3.0.0",
+		"jasmine": "^2.8.0",
+		"koa": "^2.4.1",
+		"koa-bodyparser": "^4.2.0",
+		"nodemon": "^1.14.11",
+		"supertest": "^3.0.0"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@lvchengbin/is": "0.0.4",
+		"async-busboy": "^0.6.2",
+		"co-body": "^5.1.1",
+		"cookie": "^0.3.1",
+		"path-to-regexp": "^2.1.0",
+		"request": "^2.83.0",
+		"request-promise-native": "^1.0.5"
+	},
+	"scripts": {
+		"test-server": "nodemon test/app.js",
+		"test-watching": "nodemon --exec npm test",
+		"test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+	}
+}
