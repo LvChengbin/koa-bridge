@@ -116,7 +116,7 @@ router.any( '*', '/bridge', async ctx => {
     } );
 
     ctx.set( 'x-custom-header', 'xxx' );
-    return bridge.response( response );
+    return bridge.response( ctx, response );
 } );
 ```
 
