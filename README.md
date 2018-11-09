@@ -1,5 +1,7 @@
 # koa-bridge
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LvChengbin/koa-bridge.svg)](https://greenkeeper.io/)
+
 A simple repeater for Koa for forwarding requests, from client, to another service (or api) with the same request method and headers, queries, body from the client, and response the data, from another server, to client.
 
 ## Installation
