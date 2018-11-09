@@ -11,9 +11,9 @@
         "bridge"
 	],
 	"devDependencies": {
-		"@lvchengbin/koa-router": "0.0.2",
-		"get-stream": "^3.0.0",
-		"jasmine": "^2.8.0",
+		"@lvchengbin/koa-router": "0.0.9",
+		"get-stream": "^4.1.0",
+		"jasmine": "^3.3.0",
 		"koa": "^2.4.1",
 		"koa-bodyparser": "^4.2.0",
 		"nodemon": "^1.14.11",
@@ -22,9 +22,9 @@
     "author": "LvChengbin",
 	"license": "MIT",
 	"dependencies": {
-		"@lvchengbin/is": "0.0.4",
-		"async-busboy": "^0.6.2",
-		"co-body": "^5.1.1",
+		"@lvchengbin/is": "0.0.24",
+		"async-busboy": "^0.7.0",
+		"co-body": "^6.0.0",
 		"cookie": "^0.3.1",
 		"path-to-regexp": "^2.1.0",
 		"request": "^2.83.0",
